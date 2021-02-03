@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DoctorNextTypeOfQuestionActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/backgroundColor"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        >
+        <TextView
+            android:id="@+id/shShortAnswer"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/color1"
+            android:drawableLeft="@drawable/ic_short_text_black_24dp"
+            android:gravity="center"
+            app:tabRippleColor="#8D000000"
+            android:text="Short Answer"
+            android:textColor="#fff"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/shParagraph"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:background="@drawable/color5"
+            android:layout_toRightOf="@+id/shShortAnswer"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_subject_black_24dp"
+
+            app:tabRippleColor="#8D000000"
+            android:text="Paragraph"
+            android:textSize="21sp"
+            />
+        <TextView
+            android:id="@+id/shMultipleChoice"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/color4"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:layout_below="@+id/shShortAnswer"
+            android:drawableLeft="@drawable/ic_adjust_24dp"
+            android:gravity="center"
+            app:tabRippleColor="#8D000000"
+            android:text="Multiple Choice"
+            android:textSize="21sp"
+            />
+
+        <TextView
+            android:id="@+id/shCheckboxes"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/shParagraph"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toRightOf="@+id/shMultipleChoice"
+            android:background="@drawable/color3"
+            android:drawableLeft="@drawable/ic_check_box_24dp"
+            android:gravity="center"
+            android:text="Checkbox"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            app:tabRippleColor="#8D000000" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

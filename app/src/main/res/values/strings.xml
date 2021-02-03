@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">EMS</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="change_doctorr">
+        <item></item>
+        <item>Dr/salah shaban</item>
+        <item>Dr/mohamed torky</item>
+        <item>Dr/mohamed hassan</item>
+        <item>Dr/kamal hamoda</item>
+    </string-array>
+    <string-array name="change_assistant">
+        <item></item>
+        <item>Eng/dalia</item>
+        <item>Eng/ahmed</item>
+        <item>Eng/andrue</item>
+        <item>Eng/marwa</item>
+    </string-array>
+    <string-array name="Project_Filed">
+        <item></item>
+        <item>computer science</item>
+        <item>database</item>
+        <item>security</item>
+        <item>software</item>
+    </string-array>
+    <string-array name="choose_assistant">
+        <item></item>
+        <item>Eng/dalia</item>
+        <item>Eng/ahmed</item>
+        <item>Eng/andrue</item>
+        <item>Eng/marwa</item>
+    </string-array>
+    <string-array name="choose_doctor">
+        <item></item>
+        <item>Dr/salah shaban</item>
+        <item>Dr/mohamed torky</item>
+        <item>Dr/mohamed hassan</item>
+        <item>Dr/kamal hamoda</item>
+    </string-array>
+    <string-array name="Choose_Level">
+        <item></item>
+        <item>First Level</item>
+        <item>Second Level</item>
+        <item>Third Level</item>
+        <item>Fourth Level</item>
+    </string-array>
+    <string-array name="Choose_a_subject">
+        <item></item>
+        <item>Math</item>
+        <item>IS</item>
+        <item>Security</item>
+        <item>Data Base</item>
+    </string-array>
+</resources>

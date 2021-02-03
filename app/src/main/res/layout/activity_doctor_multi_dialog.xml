@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DoctorMultiDialogActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:background="@color/backgroundColor"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/QuestionMu"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="21sp"
+                    android:maxLength="1000"
+                    android:layout_marginTop="10dp"/>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/AnswerMu1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:gravity="center"
+                android:maxLength="1000"
+                android:textSize="21sp"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:id="@+id/AnswerMu2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:gravity="center"
+                android:maxLength="1000"
+                android:textSize="21sp"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:id="@+id/AnswerMu3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:gravity="center"
+                android:maxLength="1000"
+                android:textSize="21sp"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:id="@+id/AnswerMu4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:gravity="center"
+                android:maxLength="1000"
+                android:textSize="21sp"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:id="@+id/AnswerMu5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:gravity="center"
+                android:maxLength="1000"
+                android:textSize="21sp"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:id="@+id/AnswerMu6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:gravity="center"
+                android:maxLength="1000"
+                android:textSize="21sp"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:id="@+id/AnswerMu"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+                android:gravity="center"
+                android:maxLength="1000"
+                android:textSize="21sp"
+                android:layout_marginTop="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:layout_marginTop="40dp">
+
+                <Button
+                    android:id="@+id/btnInsertMu"
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:text="Insert"
+                    android:background="#1FC213"
+                    android:textColor="#fff"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:textSize="21sp"
+                    android:layout_marginTop="10dp"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

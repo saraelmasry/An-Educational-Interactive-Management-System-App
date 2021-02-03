@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "132881569571",
+    "firebase_url": "https://educational-6252c.firebaseio.com",
+    "project_id": "educational-6252c",
+    "storage_bucket": "educational-6252c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132881569571:android:79ab50693bff146e3ede96",
+        "android_client_info": {
+          "package_name": "com.csc.ems"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132881569571-gdjenhumm1re7njeviijj4856po92ojp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfwUijHziRQtsGZNOG70v8pJlhLCumWjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132881569571-gdjenhumm1re7njeviijj4856po92ojp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

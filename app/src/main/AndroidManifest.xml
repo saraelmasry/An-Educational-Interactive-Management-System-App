@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.csc.ems">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.DoctorCheckDialogActivity"></activity>
+        <activity android:name=".ui.DoctorMultiDialogActivity" />
+        <activity android:name=".ui.DoctorLongDialogActivity" />
+        <activity android:name=".ui.DoctorCollectQuestionOfAssignmentActivity" />
+        <activity android:name=".ui.DoctorInsertOrFinishActivity" />
+        <activity android:name=".ui.DoctorShortDialogActivity" />
+        <activity android:name=".ui.DoctorShowCheckboxAnswerActivity" />
+        <activity android:name=".ui.DoctorShowMultipleAnswerActivity" />
+        <activity android:name=".ui.DoctorShowParagraphAnswerActivity" />
+        <activity android:name=".ui.DoctorShowShortAnswerActivity" />
+        <activity android:name=".ui.DoctorNextTypeOfQuestionActivity" />
+        <activity android:name=".ui.DoctorCreateAssignmentActivity" />
+        <activity android:name=".ui.DoctorCheckboxesAnswerActivity" />
+        <activity android:name=".ui.DoctorMultipleChoiceAnswerActivity" />
+        <activity android:name=".ui.DoctorLongAnswerActivity" />
+        <activity android:name=".ui.DoctorShortAnswerActivity" />
+        <activity android:name=".ui.DoctorShowQuestionActivity" />
+        <activity android:name=".ui.DoctorTypesOfQuestionActivity" />
+        <activity android:name=".ui.DoctorQuestionBankActivity" />
+        <activity android:name=".ui.DoctorAssignmentActivity" />
+        <activity android:name=".ui.StudentChangeAssistantActivity" />
+        <activity android:name=".ui.StudentChangeDoctorActivity" />
+        <activity android:name=".ui.UnderGraduateLevelHomeActivity" />
+        <activity android:name=".ui.AdminRequistListOfProjectActivity" />
+        <activity android:name=".ui.AdminRequestIdeaActivity" />
+        <activity android:name=".ui.DoctorAcceptIdeaWithChangeActivity" />
+        <activity android:name=".ui.AdminAddsActivity" />
+        <activity android:name=".ui.DoctorAddsActivity" />
+        <activity android:name=".ui.DoctorSubjectToolsActivity" />
+        <activity android:name=".ui.StudentSubjectToolsActivity" />
+        <activity android:name=".ui.AssistantRequestProjectIdeaActivity" />
+        <activity android:name=".ui.AssistantRequestItemProjectIdeaActivity" />
+        <activity android:name=".ui.DoctorRequestProjectIdeaActivity" />
+        <activity android:name=".ui.DoctorRequestItemProjectIdeaActivity" />
+        <activity android:name=".ui.DoctorCreateIdeaActivity" />
+        <activity android:name=".ui.StudentIdeaCreatedActivity" />
+        <activity android:name=".ui.StudentProjectDetailsActivity" />
+        <activity android:name=".ui.StudentRequestJoinGroupActivity" />
+        <activity android:name=".ui.StudentGroupDetailsActivity" />
+        <activity android:name=".ui.StudentProjectStatusActivity" />
+        <activity android:name=".ui.StudentRegisterNewGroupActivity" />
+        <activity android:name=".ui.StudentCreateIdeaActivity" />
+        <activity android:name=".ui.AdminHomeActivity" />
+        <activity android:name=".ui.AssistantHomeActivity" />
+        <activity android:name=".ui.DoctorHomeActivity" />
+        <activity android:name=".ui.StudentHomeActivity" />
+        <activity android:name=".ui.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

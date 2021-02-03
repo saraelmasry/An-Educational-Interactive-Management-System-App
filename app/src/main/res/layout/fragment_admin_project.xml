@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.adminProjectFragment"
+    android:background="#DDE9F9"
+
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@color/whiteColor"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+
+        <Button
+            android:id="@+id/ad_requet_idea"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:background="@drawable/request_idea_shape"
+            android:layout_marginRight="32dp"
+            android:layout_marginLeft="8dp"
+            android:drawableTop="@drawable/ic_bookmark_black_24dp"
+            android:paddingTop="20dp"
+            android:text="Request Idea"
+            android:textColor="@color/whiteColor"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+</FrameLayout>

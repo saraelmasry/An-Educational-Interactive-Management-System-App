@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/doctor_color_state"
+        android:height="2dp"
+        android:gravity="center">
+        <shape android:shape="rectangle">
+            <solid android:color="#C0C0C0" />
+        </shape>
+    </item>
+    <item
+        android:id="@+id/doctor_color_state1"
+        android:width="40dp"
+        android:height="40dp"
+        android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="#C0C0C0" />
+        </shape>
+    </item>
+
+</layer-list>

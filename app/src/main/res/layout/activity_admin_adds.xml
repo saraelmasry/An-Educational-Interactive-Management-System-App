@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AdminAddsActivity"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        >
+        <EditText
+            android:id="@+id/ad_et_adds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/adds_shape"
+            android:textSize="30dp"
+            android:padding="16dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/ad_send_btn_adds_id"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:text="send"
+                android:textAllCaps="false"
+                android:textColor="@color/whiteColor"
+                android:background="#219125"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

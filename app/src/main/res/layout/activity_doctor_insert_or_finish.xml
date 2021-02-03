@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DoctorInsertOrFinishActivity"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@color/backgroundColor"
+    >
+    <TextView
+        android:id="@+id/InsertAnotherQuestion"
+        android:layout_width="141dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Insert Another Question"
+        android:textColor="#3BD140"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Or"
+        android:textColor="#000700"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Finish"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Finish"
+        android:textColor="#00BCD4"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

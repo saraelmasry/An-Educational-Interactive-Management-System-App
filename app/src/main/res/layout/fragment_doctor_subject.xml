@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.doctorSubjectFragment"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/subjectDoc3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/color1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:tabRippleColor="#37000000"
+            android:text="Math"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/subjectDoc4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/color2"
+            android:gravity="center"
+            android:layout_gravity="center"
+            app:tabRippleColor="#37000000"
+            android:text="Data Structure"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/subjectDoc1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/color3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:tabRippleColor="#37000000"
+            android:text="Programming"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/subjectDoc2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/color4"
+            android:gravity="center"
+            android:layout_gravity="center"
+            app:tabRippleColor="#37000000"
+            android:text="Operating System"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
